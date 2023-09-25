@@ -1,7 +1,7 @@
 # Delivery Duration Prediction Project
 *By Nguyễn Trí Cao Sơn*
 
-This is my own solution to the Delivery Duration Prediction Project by DoorDash.
+This is my own solution to the Delivery Duration Prediction Project by DoorDash. Clich [here](https://github.com/nguyentricaoson/Data_project/blob/main/DoorDash/DoorDash_project.ipynb) to view the solution.
 
 ### Project overview: 
 
