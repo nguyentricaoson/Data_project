@@ -39,4 +39,4 @@ Explanation of selected columns:
 
 Analyze the provided data and answer the questions to the best of your abilities. Include the relevant tables/graphs/visualization to explain and support your findings. Make sure that the solution reflects your entire thought process including the preparation of data - it is more important how the code is structured rather than just the final result or plot. You are expected to spend no more than 1-3 hours on this project.
 
-![]([Images/Attack_spread.png](https://github.com/nguyentricaoson/Data_project/blob/main/Images/Attack_spread.png)https://github.com/nguyentricaoson/Data_project/blob/main/Images/Attack_spread.png)
+![abc]([Images/Attack_spread.png](https://github.com/nguyentricaoson/Data_project/blob/main/Images/Attack_spread.png)https://github.com/nguyentricaoson/Data_project/blob/main/Images/Attack_spread.png)
