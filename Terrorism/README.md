@@ -1,5 +1,9 @@
 # Terrorism Hotspots Project
 
+*By Nguyễn Trí Cao Sơn
+
+This is my solution to the Terrorism Hotspots Project by LGM. Click [here](https://github.com/nguyentricaoson/Data_project/blob/main/Terrorism/Terrorism_project.ipynb) to access my work.
+
 ### Assignment
 
 Imagine you are a security or defense analyst. Analyze the data and draw conclusions on the distribution and nature of terrorist incidents recorded around the world. In your analysis, include maps that visualize the location of different incidents. Your analysis may also provide answers to the following questions:
