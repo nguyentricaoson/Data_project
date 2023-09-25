@@ -1,6 +1,6 @@
 # Terrorism Hotspots Project
 
-*By Nguyễn Trí Cao Sơn
+*By Nguyễn Trí Cao Sơn*
 
 This is my solution to the Terrorism Hotspots Project by LGM. Click [here](https://github.com/nguyentricaoson/Data_project/blob/main/Terrorism/Terrorism_project.ipynb) to access my work.
 
