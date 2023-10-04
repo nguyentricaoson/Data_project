@@ -3,7 +3,7 @@ Welcome to my data analysis project where I learn more about the WHO intentional
 
 This dataset is collected from [WHO database](https://platform.who.int/mortality/themes/theme-details/topics/indicator-groups/indicator-group-details/MDB/self-inflicted-injuries), complying with [Copyright, Licensing and Permissions](https://www.who.int/about/policies/publishing/copyright) policy.
 
-**If you want to view a summary dashboard, please [click here](https://public.tableau.com/views/Self-harm_16962657465490/SelfInflictedDeathsDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)**
+**If you want to view a summary dashboard, please [click here](https://public.tableau.com/shared/SHWD2K24Y?:display_count=n&:origin=viz_share_link)**
 
 **If you want to view in-depth analysis and code, please [click here](https://github.com/nguyentricaoson/Data_project/blob/main/Self%20harm/WHO_suicide_data.ipynb).**
 
