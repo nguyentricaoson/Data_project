@@ -4,7 +4,7 @@
 
 This is my solution to the Terrorism Hotspots Project by LGM. Click [here](https://github.com/nguyentricaoson/Data_project/blob/main/Terrorism/Terrorism_project.ipynb) to access my work.
 
-Or click [here](https://public.tableau.com/shared/49Q76BC4G?:display_count=n&:origin=viz_share_link) to view the summary DASHBOARD.
+Or click [here](https://public.tableau.com/views/Terrorism_16968468691160/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link) to view the summary DASHBOARD.
 
 ### Assignment
 
