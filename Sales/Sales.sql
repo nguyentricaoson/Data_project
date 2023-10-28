@@ -86,10 +86,6 @@ FROM ta JOIN tableau ON ta.y1 = tableau.year1
 
 
 
--- Number of orders by status
-SELECT [STATUS], COUNT(*) AS n_orders
-FROM [dbo].[sales_data_sample1]
-GROUP BY [STATUS]
 
 -- Average order value
 SELECT AVG(SALES) AS avg_sales_per_order
@@ -117,3 +113,17 @@ SELECT customername, AVG(n_days) AS avg_n_days
 FROM t2
 GROUP BY customername
 ORDER BY avg_n_days
+
+
+
+-- Top primary contacts by number of orders each month
+WITH t1 AS (
+	SELECT YEAR_ID, MONTH_ID, CONTACTLASTNAME, CONTACTFIRSTNAME
+		,COUNT(*) AS n_orders
+		,RANK() OVER(PARTITION BY YEAR_ID, MONTH_ID ORDER BY COUNT(*) DESC) AS ranking
+	FROM [dbo].[sales_data_sample1]
+	GROUP BY YEAR_ID, MONTH_ID, CONTACTLASTNAME, CONTACTFIRSTNAME
+)
+SELECT YEAR_ID, MONTH_ID, CONTACTLASTNAME, CONTACTFIRSTNAME, n_orders
+FROM t1 
+WHERE ranking = 1
