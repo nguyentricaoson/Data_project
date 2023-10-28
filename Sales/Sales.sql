@@ -116,14 +116,14 @@ ORDER BY avg_n_days
 
 
 
--- Top primary contacts by number of orders each month
+-- Top primary contacts by sales each month
 WITH t1 AS (
 	SELECT YEAR_ID, MONTH_ID, CONTACTLASTNAME, CONTACTFIRSTNAME
-		,COUNT(*) AS n_orders
-		,RANK() OVER(PARTITION BY YEAR_ID, MONTH_ID ORDER BY COUNT(*) DESC) AS ranking
+		,ROUND(sum(sales),0) AS sales
+		,RANK() OVER(PARTITION BY YEAR_ID, MONTH_ID ORDER BY sum(sales) DESC) AS ranking
 	FROM [dbo].[sales_data_sample1]
 	GROUP BY YEAR_ID, MONTH_ID, CONTACTLASTNAME, CONTACTFIRSTNAME
 )
-SELECT YEAR_ID, MONTH_ID, CONTACTLASTNAME, CONTACTFIRSTNAME, n_orders
+SELECT YEAR_ID, MONTH_ID, CONTACTLASTNAME, CONTACTFIRSTNAME, sales
 FROM t1 
 WHERE ranking = 1
