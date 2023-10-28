@@ -1,5 +1,6 @@
 # Sales Project
 *By Nguyễn Trí Cao Sơn*
+
 Welcome to my SQL sales project. The sample data is collected from [Kaggle](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data/), complying with [CC0 1.0 DEED](https://creativecommons.org/publicdomain/zero/1.0/).
 
 To access my work, please [click here](https://github.com/nguyentricaoson/Data_project/blob/main/Sales/Sales.sql).
