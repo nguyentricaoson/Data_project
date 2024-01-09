@@ -2,7 +2,7 @@
 
 By *Nguyen Tri Cao Son*
 
-Welcome to my **Iphone Google Shopping Project**. In this project, I have scraped data of Iphone 11 to Iphone 15 from [Google Shopping](https://shopping.google.com/?pli=1) via Google Shopping API provided by [SerpAPI](https://serpapi.com/).
+Welcome to my **Iphone Google Shopping Project**. In this [project](https://github.com/nguyentricaoson/Data_project/blob/main/Iphone/iphone.ipynb), I have scraped data of Iphone 11 to Iphone 15 from [Google Shopping](https://shopping.google.com/?pli=1) via Google Shopping API provided by [SerpAPI](https://serpapi.com/).
 
 ### Project Goal
 - Successfully extract data from web using API.
