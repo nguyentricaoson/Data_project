@@ -4,7 +4,7 @@
 
 This is my attempt to predict stock price difference by using Machine Learning and Deep Learning model. A stock price prediction is calculated by subtracting the price of stock at the current instance from the price of stock at the next instance (next minute, next hour, next day,...).
 
-Click [here](https://github.com/nguyentricaoson/Data_project/blob/main/Terrorism/Terrorism_project.ipynb) to access my work.
+Click [here](https://github.com/nguyentricaoson/Data_project/blob/main/Stock/Stock%20price.ipynb) to access my work.
 
 ### Methodology
 
