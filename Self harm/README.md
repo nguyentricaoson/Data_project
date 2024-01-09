@@ -1,4 +1,7 @@
 # Self Inflicted Deaths Project
+
+*By Nguyễn Trí Cao Sơn*
+
 Welcome to my data analysis project where I learn more about the WHO intentional and self inflicted injuries from 1950 to 2021 with data from 6 different regions with over 120 countries. The dataset is divided into 3 genders: male, female and unknown with age groups ranging from 0 to over 85 years old.
 
 This dataset is collected from [WHO database](https://platform.who.int/mortality/themes/theme-details/topics/indicator-groups/indicator-group-details/MDB/self-inflicted-injuries), complying with [Copyright, Licensing and Permissions](https://www.who.int/about/policies/publishing/copyright) policy.
